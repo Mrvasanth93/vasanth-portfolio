@@ -35,7 +35,7 @@ function WhyChooseUs() {
   ]
 
   return (
-    <section className="why-choose-us">
+    <section id='why-choose-us' className="why-choose-us">
       <div className="container">
         <p className="section-subtitle">WHY CHOOSE ME</p>
         <h2 className="section-title">Why Choose Us</h2>

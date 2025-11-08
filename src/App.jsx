@@ -14,7 +14,6 @@ function App() {
       <WhatIDo />
       <WhyChooseUs />
       <Testimonials />
-      <Pricing />
       <Contact />
       <Footer />
     </div>

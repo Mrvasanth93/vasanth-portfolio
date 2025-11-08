@@ -35,7 +35,7 @@ function WhatIDo() {
   ]
 
   return (
-    <section className="what-i-do">
+    <section id="what-i-do" className="what-i-do">
       <div className="container">
         <p className="section-subtitle">SERVICES</p>
         <h2 className="section-title">What I Do</h2>

@@ -23,7 +23,7 @@ function Testimonials() {
   ]
 
   return (
-    <section className="testimonials">
+    <section id='testimonials' className="testimonials">
       <div className="container">
         <p className="section-subtitle">WHAT CLIENTS SAY</p>
         <h2 className="section-title">Testimonial</h2>
