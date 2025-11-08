@@ -10,7 +10,6 @@ function Hero() {
           <li><a href="#what-i-do">SERVICES</a></li>
           <li><a href="#why-choose-us">WHY CHOOSE US</a></li>
           <li><a href="#testimonials">TESTIMONIALS</a></li>
-          <li><a href="#pricing">PRICING</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
