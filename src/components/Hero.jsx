@@ -1,5 +1,5 @@
 import './Hero.css'
-
+import heroimg from "../assets/10590.jpg"
 function Hero() {
   return (
     <section id='home' className="hero">
@@ -52,8 +52,8 @@ function Hero() {
         <div className="hero-image">
           <div className="image-placeholder">
             <img 
-              src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?w=500&h=600&fit=crop" 
-              alt="Web Developer"
+              src={heroimg}
+              alt="Web Development Illustration"
               className="hero-photo"
             />
           </div>
