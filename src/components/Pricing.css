@@ -1,0 +1,141 @@
+.pricing {
+  padding: 100px 20px;
+  background: white;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  background: #f9f9f9;
+  padding: 50px 40px;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.pricing-card.popular {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.popular-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #ff014f;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.pricing-card h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.price {
+  margin: 30px 0;
+}
+
+.currency {
+  font-size: 24px;
+  vertical-align: top;
+}
+
+.amount {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.period {
+  font-size: 18px;
+  color: #999;
+}
+
+.pricing-card.popular .period {
+  color: rgba(255,255,255,0.8);
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.features-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.pricing-card.popular .features-list li {
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.order-btn {
+  background: #ff014f;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 20px;
+}
+
+.order-btn:hover {
+  background: #d4012f;
+  transform: scale(1.05);
+}
+
+.pricing-card.popular .order-btn {
+  background: white;
+  color: #764ba2;
+}
+
+@media (max-width: 968px) {
+  .pricing {
+    padding: 60px 20px;
+  }
+  
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .pricing-card {
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-card h3 {
+    font-size: 24px;
+  }
+  
+  .amount {
+    font-size: 48px;
+  }
+  
+  .currency {
+    font-size: 20px;
+  }
+  
+  .order-btn {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+}
