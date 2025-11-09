@@ -1,5 +1,5 @@
 import './Hero.css'
-import heroimg from "../assets/10590.jpg"
+import heroimg from "../assets/10590.png"
 function Hero() {
   return (
     <section id='home' className="hero">
