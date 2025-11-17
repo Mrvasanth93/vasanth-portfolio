@@ -42,7 +42,6 @@
 .carousel-btn:hover {
   background: #ff014f;
   color: white;
-  transform: scale(1.1);
 }
 
 .carousel-dots {

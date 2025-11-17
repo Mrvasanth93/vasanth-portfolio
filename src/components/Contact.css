@@ -28,7 +28,9 @@
   font-size: 80px;
   margin-bottom: 30px;
 }
-
+.info-image img{
+  width: 100%;
+}
 .info-card h3 {
   font-size: 24px;
   color: #1e1e1e;
@@ -54,6 +56,11 @@
 .contact-details p {
   color: #666;
   margin: 10px 0;
+}
+
+.contact-details p a{
+  color: black;
+  text-decoration: none;
 }
 
 .contact-form-wrapper {

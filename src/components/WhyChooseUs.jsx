@@ -4,7 +4,7 @@ function WhyChooseUs() {
   const features = [
     {
       icon: '⚡',
-      title: 'Fast 7-Day Delivery',
+      title: 'Fast Delivery',
       description: 'Get your website up and running within a week without compromising on quality.'
     },
     {
